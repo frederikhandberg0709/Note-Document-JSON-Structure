@@ -1,0 +1,258 @@
+{
+  "blocks" : [
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "This repository functions as an outline to showcase the JSON structure used in the notes app."
+        }
+      ],
+      "id" : "78F38755-ACCF-43E5-92AA-AE17767DA1B3",
+      "indent" : 0,
+      "type" : "text"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Heading"
+        }
+      ],
+      "id" : "CFDC2AF2-6458-4C93-A820-5142AA83C715",
+      "indent" : 0,
+      "isCollapsed" : false,
+      "level" : 1,
+      "type" : "heading"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Headings can be different levels"
+        }
+      ],
+      "id" : "69A4FDBC-FD53-4925-9AAD-BD6F07652CC7",
+      "indent" : 0,
+      "isCollapsed" : false,
+      "level" : 2,
+      "type" : "heading"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Normal text block.\n\nCan contain different text formatting like "
+        },
+        {
+          "styles" : [
+            "bold"
+          ],
+          "text" : "bold"
+        },
+        {
+          "styles" : [
+
+          ],
+          "text" : " and "
+        },
+        {
+          "styles" : [
+            "italic"
+          ],
+          "text" : "italic"
+        },
+        {
+          "styles" : [
+
+          ],
+          "text" : ".\nAlso "
+        },
+        {
+          "styles" : [
+            "strikethrough"
+          ],
+          "text" : "strikethrough"
+        },
+        {
+          "styles" : [
+
+          ],
+          "text" : ", "
+        },
+        {
+          "styles" : [
+            "underline"
+          ],
+          "text" : "underline"
+        },
+        {
+          "styles" : [
+
+          ],
+          "text" : ", and "
+        },
+        {
+          "styles" : [
+            "inlineCode"
+          ],
+          "text" : "inline code"
+        },
+        {
+          "styles" : [
+
+          ],
+          "text" : "."
+        }
+      ],
+      "id" : "F9F2140C-46CC-47F0-AD24-C3CAD102E301",
+      "indent" : 0,
+      "type" : "text"
+    },
+    {
+      "alignment" : "center",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Centered text"
+        }
+      ],
+      "id" : "23FB561F-E935-4E38-B23F-60790EA6F1C9",
+      "indent" : 0,
+      "type" : "text"
+    },
+    {
+      "alignment" : "right",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Text aligned to the right"
+        }
+      ],
+      "id" : "763B26E2-FCFC-4AE6-B0A7-9CCAABD42FB4",
+      "indent" : 0,
+      "type" : "text"
+    },
+    {
+      "alignment" : "left",
+      "content" : "private var text: String = \"\"",
+      "id" : "1D87D2B2-2909-4E83-81B8-EEA9C65BB32E",
+      "indent" : 0,
+      "language" : "swift",
+      "showLineNumbers" : true,
+      "type" : "codeBlock"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "This is a list item"
+        }
+      ],
+      "id" : "AF75587D-38B3-4253-A1CC-D25F015480BF",
+      "indent" : 0,
+      "isCollapsed" : false,
+      "listType" : "bullet",
+      "type" : "listItem"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "An indented list item"
+        }
+      ],
+      "id" : "5CA7651E-A2F1-4970-8DD5-591801E7835B",
+      "indent" : 1,
+      "isCollapsed" : false,
+      "listType" : "bullet",
+      "parentId" : "AF75587D-38B3-4253-A1CC-D25F015480BF",
+      "type" : "listItem"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Even more indented"
+        }
+      ],
+      "id" : "EE92B2F7-376F-4033-9311-C2711AE238B8",
+      "indent" : 2,
+      "isCollapsed" : false,
+      "listType" : "bullet",
+      "parentId" : "5CA7651E-A2F1-4970-8DD5-591801E7835B",
+      "type" : "listItem"
+    },
+    {
+      "alignment" : "left",
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Checkbox here"
+        }
+      ],
+      "id" : "AC16042E-083D-4C1D-B05D-4C6DC97DD13D",
+      "indent" : 0,
+      "isCollapsed" : false,
+      "listType" : "checklist",
+      "type" : "listItem"
+    },
+    {
+      "alignment" : "left",
+      "checked" : true,
+      "content" : [
+        {
+          "styles" : [
+
+          ],
+          "text" : "Another one, but this one is checked"
+        }
+      ],
+      "id" : "76A9F280-DD52-4981-87D1-3A44DFD8F25E",
+      "indent" : 0,
+      "isCollapsed" : false,
+      "listType" : "checklist",
+      "type" : "listItem"
+    }
+  ],
+  "displayMode" : "blocks",
+  "metadata" : {
+    "bookmarked" : false,
+    "characterCount" : 433,
+    "created" : "2026-01-19T23:49:43Z",
+    "id" : "D1565629-1A26-4B72-BC61-DE5AE924D2C4",
+    "modified" : "2026-01-19T23:56:45Z",
+    "tags" : [
+
+    ],
+    "title" : "New Note",
+    "wordCount" : 76
+  },
+  "version" : "1.0"
+}
